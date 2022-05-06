@@ -27,11 +27,11 @@ const Footer = () => {
             <p className="text-base text-gray-500">{footer.description}</p>
             <div className="flex space-x-6">
               {footer.iconLinks.map((iconLink: IconLink) => (
-                <Link key={iconLink.key} href={iconLink.link} passHref>
+                <a key={iconLink.key} href={iconLink.link} target="_blank" rel="noreferrer">
                   <div className="text-gray-400 hover:text-gray-500">
-                    <div className="w-6 h-6" dangerouslySetInnerHTML={{ __html: iconLink.icon }} />
+                    <div className="w-6 h-6" dangerouslySetInnerHTML={{ __html: iconLink.icon ? iconLink.icon : '' }} />
                   </div>
-                </Link>
+                </a>
               ))}
             </div>
           </div>
