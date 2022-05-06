@@ -13,7 +13,7 @@ export default function ContainerWithLeftImage({ container }: Props) {
             <div>
               {container.icon ? (
                 <div>
-                  <span className="flex items-center justify-center w-12 h-12 bg-green-600 rounded-md">
+                  <span className="flex items-center justify-center w-12 h-12 bg-green-500 rounded-md">
                     <div
                       className="w-6 h-6 text-white"
                       dangerouslySetInnerHTML={{

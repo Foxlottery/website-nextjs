@@ -18,7 +18,7 @@ export default function Feature({ feature }: FeatureProps) {
                 <div className="flow-root px-6 pb-8 rounded-lg bg-gray-50">
                   <div className="-mt-6">
                     <div>
-                      <span className="inline-flex items-center justify-center p-3 bg-green-600 rounded-md shadow-lg">
+                      <span className="inline-flex items-center justify-center p-3 bg-green-500 rounded-md shadow-lg">
                         <div className="w-6 h-6 text-white" dangerouslySetInnerHTML={{ __html: featureItem.icon }} />
                       </span>
                     </div>
