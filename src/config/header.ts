@@ -4,8 +4,9 @@ import { t } from '@lingui/macro'
 const header = (i18n: I18n) => {
   return {
     menuItems: [
-      { key: 'lottery', title: i18n._(t`Lottery`), link: `/` },
-      { key: 'dashboard', title: i18n._(t`Dashboard`), link: `/dashboard` },
+      { key: 'Home', title: i18n._(t`Home`), link: `/` },
+      // { key: 'Demo', title: i18n._(t`Demo`), link: `http://app.foxlottery.org/` },
+      { key: 'Whitepaper', title: i18n._(t`Whitepaper`), link: `https://whitepaper.foxlottery.org/` },
     ],
   }
 }
