@@ -29,20 +29,20 @@ const Home: NextPage = () => {
               <div className="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="https://whitepaper.foxlottery.org/"
                     className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-green-500 border border-transparent rounded-md hover:bg-green-600 md:py-4 md:text-lg md:px-10"
                   >
                     {i18n._(t`Whitepaper`)}
                   </a>
                 </div>
-                {/* <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+                <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
-                    className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-green-600 bg-white border border-transparent rounded-md hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
+                    href="https://app.foxlottery.org/"
+                    className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-green-600 border border-transparent rounded-md bg-gray-50 hover:bg-gray-100 md:py-4 md:text-lg md:px-10"
                   >
-                    {i18n._(t`Live Demo`)}
+                    {i18n._(t`Demo`)}
                   </a>
-                </div> */}
+                </div>
               </div>
             </div>
           </main>
