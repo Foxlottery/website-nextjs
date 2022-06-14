@@ -63,7 +63,7 @@ const Home: NextPage = () => {
           <div className="max-w-md mx-auto mt-6 sm:flex sm:justify-center md:mt-8">
             <div className="rounded-md shadow">
               <a
-                href="#"
+                href="https://discord.gg/2RuM6csG"
                 className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-green-500 border border-transparent rounded-md hover:bg-green-700 md:py-4 md:text-lg md:px-10"
               >
                 {i18n._(t`Join Discord`)}

@@ -65,7 +65,7 @@ const footer = (i18n: I18n) => {
         menuItems: [
           // { key: '', title: i18n._(t`Docs`), link: '' },
           { key: '', title: i18n._(t`Github`), link: 'https://github.com/Foxlottery' },
-          { key: '', title: i18n._(t`Join Discord`), link: 'https://discord.gg/HqURUwGX' },
+          { key: '', title: i18n._(t`Join Discord`), link: 'https://discord.gg/2RuM6csG' },
         ],
       },
       // {
