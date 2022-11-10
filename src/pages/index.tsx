@@ -7,6 +7,7 @@ import ecosystemContainerConfig from 'app/config/ecosystemContainer'
 import featureConfig from 'app/config/feature'
 import Feature from 'components/Feature'
 import type { NextPage } from 'next'
+import YouTube from 'react-youtube'
 
 const Home: NextPage = () => {
   const { i18n } = useLingui()
@@ -37,7 +38,7 @@ const Home: NextPage = () => {
                 </div>
                 <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                   <a
-                    href="https://app.foxlottery.org/"
+                    href="https://demo.foxlottery.org/"
                     className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-green-600 border border-transparent rounded-md bg-gray-50 hover:bg-gray-100 md:py-4 md:text-lg md:px-10"
                   >
                     {i18n._(t`Demo`)}
@@ -47,6 +48,9 @@ const Home: NextPage = () => {
             </div>
           </main>
         </div>
+      </div>
+      <div className="youtube">
+        <YouTube videoId="J1DsxzXupA8" />
       </div>
       <Feature feature={feature} />
       <ContainerWithLeftImage container={ecosystemContainer} />

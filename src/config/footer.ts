@@ -54,7 +54,8 @@ const footer = (i18n: I18n) => {
         title: i18n._(t`About us`),
         menuItems: [
           { key: '', title: i18n._(t`Whitepaper`), link: 'https://whitepaper.foxlottery.org/' },
-          { key: 'demo', title: i18n._(t`Demo`), link: `https://app.foxlottery.org/` },
+          { key: 'demo v1', title: i18n._(t`Demo`) + ' v1', link: `https://app.foxlottery.org/` },
+          { key: 'demo v2', title: i18n._(t`Demo`) + ' v2', link: `https://demo.foxlottery.org/` },
           // { key: '', title: i18n._(t`Jobs`), link: '' },
           // { key: '', title: i18n._(t`Partners`), link: '' },
           // { key: '', title: i18n._(t`Blog`), link: '' },
